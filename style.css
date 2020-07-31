@@ -70,7 +70,12 @@ h3 {
     text-transform: uppercase;
    
 }
+.list{
+    text-align: left;
+    display:inline-block;
+    }
 
+    
 blockquote, strong, i, em {
     color:#845EC2 ;
     padding: 3px;
@@ -80,3 +85,26 @@ p {
     margin:20px;
 }
 
+/* the @media rule*/
+
+ @media screen and (max-width: 600px) {
+    nav {
+      text-align: center;
+    }
+
+    img {
+        width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .topnav>ul>li { 
+      display: block;
+      text-align: center;
+      
+    }
+
+    img {
+        width: 25%;
+    }
+  }
